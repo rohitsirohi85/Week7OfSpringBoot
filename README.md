@@ -4,13 +4,14 @@ Introduction..
 
 This repository showcases my learning and implementation of various testing methodologies in a Spring Boot application, including unit testing, integration testing, and JaCoCo for code coverage. The primary goal is to ensure the reliability, maintainability, and efficiency of the code.
 
-Key Concepts
-Unit Testing
+Key Concepts-
+1. Unit Testing-
 
 Unit tests ensure that each individual component of the application works as expected.
 Repository Testing: Using @DataJpaTest to test repositories in isolation, ensuring that data persistence logic works correctly with the database.
 Service Layer Testing: Using Mockito to mock dependencies and test the service layer in isolation.
-Integration Testing
+
+2. Integration Testing-
 
 Integration tests ensure that different layers of the application work together seamlessly.
 Testing both the Controller and Service layers together to verify the end-to-end flow in the application.
@@ -21,7 +22,8 @@ Mockito: For mocking dependencies and isolating the service layer during unit te
 Spring Boot Test: Utilized for integration testing to ensure the controller and service layers communicate correctly.
 JaCoCo: For code coverage analysis, providing insights into test coverage and identifying dead code.
 Docker: For running integration tests against a real database in a containerized environment.
-Project Structure
+
+Project Structure :
 Unit Tests
 Repository Layer: Tested using @DataJpaTest.
 Service Layer: Tested with Mockito mocks.
